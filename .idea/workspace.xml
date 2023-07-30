@@ -55,6 +55,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
     "last_opened_file_path": "C:/Users/vinny/IdeaProjects/DataVault/javafx-sdk-17.0.8/lib",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -66,12 +67,20 @@
     "project.structure.side.proportion": "0.36091954",
     "settings.editor.selected.configurable": "configurable.group.language",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "GitStage.ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
+    ]
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nonpeer.datavault.HelloApplication" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nonpeer.datavault.Main" />
       <module name="DataVault" />
+      <option name="PROGRAM_PARAMETERS" value="--gui" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.nonpeer.datavault.*" />
@@ -84,7 +93,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HelloApplication" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -96,11 +105,31 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1690663044636</updated>
-      <workItem from="1690663046190" duration="1844000" />
+      <workItem from="1690663046190" duration="4213000" />
+      <workItem from="1690668647207" duration="14195000" />
     </task>
+    <task id="LOCAL-00001" summary="add .idea">
+      <created>1690664923209</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1690664923209</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add .idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="add .idea" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="watcher.take().pollEvents()" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
